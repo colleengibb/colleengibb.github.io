@@ -1,25 +1,30 @@
 body {
 	text-align: center;
-	background: (75, 123, 125);
+	background: (164,249,255);
 	font-family: Helvetica, Arial, sans-serif;
 	font-size: 14px;
-	color: #222222;
+	color: #293E40;
 	line-height: 1.3;
 }
 header {
 	background-color: rgb(99, 163, 166);
 	padding: 20px;
 }
-a {
+nav a {
 	color: rgb(99, 163, 166);
 	text-decoration: none;
 	font-size: 20px;
+	margin-right: 10px;
+}
+img {
+	width: 100%
 }
 h2 {
 	font-family: "Brush Script MT", cursive;
 	font-size: 32px;
 }
 footer {
-	color: #000000
+	background-color: #93E0ES
+	color: #293E40
 	font-size: 14px;
 }
