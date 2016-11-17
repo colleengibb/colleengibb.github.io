@@ -43,14 +43,14 @@ nav a {
 	color: rgb(52,75,94);
 	text-decoration: none;
 	font-size: 1.2em;
-	padding: 14px, 50px; 
+	margin-right: 50px;
 }
 nav a:hover {
-	background-color: rgb(115,74,92);
+	color: rgb(219,74,92);
 }
 nav {
-	border-top: 1px black solid;
-	border-bottom: 1px black solid;
+	border-top: 1px #808080 solid;
+	border-bottom: 1px #808080 solid;
 	background-color: #EEFFEF;
 }
 a {
