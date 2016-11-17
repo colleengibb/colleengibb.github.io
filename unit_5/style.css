@@ -91,25 +91,30 @@ section {
 #exterior {
 	background-color:#EEFFEF;
 	color: rgb(52,75,94);
+	border-bottom: 1px black solid;
 }
 #interior {
 	background-color: rgba(153,183,154,.5);
 	border-top: 1px black solid;
+	border-bottom: 1px black solid;
 	color: rgb(13,8,10);
 }
 #carpentry {
 	background-color: #EEFFEF;
-	border-top: 1px black solid
+	border-top: 1px black solid;
+	border-bottom: 1px black solid;
 	color: rgb(52,75,94);
 }
 #furniture {
 	background-color: rgba(153,183,154,.5);
 	border-top: 1px black solid;
+	border-bottom: 1px black solid;
 	color: rgb(13,8,10);
 }
 #decorative {
 	background-color: #EEFFEF;
 	border-top: 1px black solid;
+	border-bottom: 1px black solid;
 	color: rgb(52,75,94);
 }
 
