@@ -70,7 +70,6 @@ h3 {
 img {
 	width: 400px;
 	height: 300px;
-	float: left;
 }
 
 footer {
@@ -84,7 +83,6 @@ footer {
 
 .blurbs {
 	font-size: .86em;
-	float: right;
 }
 section {
 	padding: 1.2em;
