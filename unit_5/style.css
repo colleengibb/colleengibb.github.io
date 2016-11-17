@@ -60,7 +60,7 @@ h3 {
 	font-size: 1em;
 }
 .light {
-	color: #EEFFEF;
+	color: rgb(13,8,10);
 }
 .dark {
 	color: rgb(52,75,94)
@@ -94,7 +94,7 @@ section {
 #interior {
 	background-color: rgba(153,183,154,.5);
 	border: top 1px black solid;
-	color: #EEFFEF;
+	color: rgb(13,8,10);
 }
 #carpentry {
 	background-color: #EEFFEF;
@@ -104,7 +104,7 @@ section {
 #furniture {
 	background-color: rgba(153,183,154,.5);
 	border: top 1px black solid;
-	color: #EEFFEF;
+	color: rgb(13,8,10);
 }
 #decorative {
 	background-color: #EEFFEF;
