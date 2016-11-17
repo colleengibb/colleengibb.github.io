@@ -82,17 +82,17 @@ section {
 	text-decoration: none;
 }
 #exterior {
-	background-image: linear-gradient(to right, #7BBBBF,#f2E8c9);
+	background-image: linear-gradient(to right, #7BBBBF,#EEFFEF);
 }
 #interior {
-	background-image: linear-gradient(to left, #7BBBBF,#f2E8c9);
+	background-image: linear-gradient(to left, #7BBBBF,#EEFFEF);
 }
 #carpentry {
-	background-image: linear-gradient(to right, #7BBBBF,#f2E8c9);
+	background-image: linear-gradient(to right, #7BBBBF,#EEFFEF);
 }
 #furniture {
-	background-image: linear-gradient(to left, #7BBBBF,#f2E8c9);
+	background-image: linear-gradient(to left, #7BBBBF,#EEFFEF);
 }
 #decorative {
-	background-image: linear-gradient(to right, #7BBBBF,#f2E8c9);
+	background-image: linear-gradient(to right, #7BBBBF,#EEFFEF);
 }
