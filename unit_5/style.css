@@ -87,13 +87,17 @@ section {
 }
 #interior {
 	background-color: #99B79A;
+	border: top 1px black solid;
 }
 #carpentry {
 	background-color: #EEFFEF;
+	border: top 1px black solid
 }
 #furniture {
 	background-color: #99B79A;
+	border: top 1px black solid;
 }
 #decorative {
 	background-color: #EEFFEF;
+	border: top 1px black solid;
 }
