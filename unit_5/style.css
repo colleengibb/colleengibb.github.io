@@ -70,6 +70,7 @@ h3 {
 img {
 	width: 400px;
 	height: 300px;
+	float: left;
 }
 
 footer {
@@ -83,7 +84,7 @@ footer {
 
 .blurbs {
 	font-size: .86em;
-	display: inline-block;
+	float: right;
 }
 section {
 	padding: 1.2em;
@@ -114,11 +115,4 @@ section {
 	border-top: 1px black solid;
 	color: rgb(52,75,94);
 }
-.clearfix:after {
-	display: block;
-	content: " ";
-	clear: both;
-	font-size: 0;
-	visibility: hidden;
-	height: 0;
-}
+
