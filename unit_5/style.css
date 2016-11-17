@@ -81,3 +81,18 @@ section {
 	padding: 1.2em;
 	text-decoration: none;
 }
+#exterior {
+	background-color: rgb(107,162,166)
+}
+#interior {
+	background-color: rgb(164,249,255)
+}
+#carpentry {
+	background-color: rgb(41,63,64)
+}
+#furniture {
+	background-color: rgb(147,224,229)
+}
+#decorative {
+	background-color: rgb(123,187,191)
+}
