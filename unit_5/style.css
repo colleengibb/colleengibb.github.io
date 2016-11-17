@@ -71,6 +71,7 @@ img {
 }
 
 footer {
+	background-image: linear-gradient(to top, #99B79A,#EEFFEF);
 	text-align: center;
 	font-family: Helvetica, sans-serif;
 	font-size: .6em;
@@ -91,7 +92,7 @@ section {
 	color: rgb(52,75,94);
 }
 #interior {
-	background-color: #99B79A;
+	background-color: rgba(153,183,154,.5);
 	border: top 1px black solid;
 	color: #EEFFEF;
 }
@@ -101,7 +102,7 @@ section {
 	color: rgb(52,75,94);
 }
 #furniture {
-	background-color: #99B79A;
+	background-color: rgba(153,183,154,.5);
 	border: top 1px black solid;
 	color: #EEFFEF;
 }
