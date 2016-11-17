@@ -23,8 +23,8 @@ header {
 	color: rgb(34,51,64);
 	line-height: 150%;
 	padding-bottom: 1em;
-	margin-left: 75px;
-	margin-right: 75px;
+	margin-left: 120px;
+	margin-right: 120px;
 }
 h1 {
 	text-align: center;
@@ -95,23 +95,23 @@ section {
 }
 #interior {
 	background-color: rgba(153,183,154,.5);
-	border: top 1px black solid;
+	border-top: 1px black solid;
 	color: rgb(13,8,10);
 	float: right;
 }
 #carpentry {
 	background-color: #EEFFEF;
-	border: top 1px black solid
+	border-top: 1px black solid
 	color: rgb(52,75,94);
 }
 #furniture {
 	background-color: rgba(153,183,154,.5);
-	border: top 1px black solid;
+	border-top: 1px black solid;
 	color: rgb(13,8,10);
 }
 #decorative {
 	background-color: #EEFFEF;
-	border: top 1px black solid;
+	border-top: 1px black solid;
 	color: rgb(52,75,94);
 }
 .clearfix:after {
