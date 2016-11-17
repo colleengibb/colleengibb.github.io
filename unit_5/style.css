@@ -39,12 +39,13 @@ h2 {
 }
 
 nav a {
+	display: block;
+	width: 180px;
+	float: left;
 	font-family: "Trirong", Times, serif;
 	color: rgb(52,75,94);
 	text-decoration: none;
 	font-size: 1.2em;
-	margin-right: 10px;
-	padding: 40px;
 }
 nav a:hover {
 	color: rgb(82,52,65)
@@ -114,4 +115,12 @@ section {
 	background-color: #EEFFEF;
 	border: top 1px black solid;
 	color: rgb(52,75,94);
+}
+.clearfix:after {
+	display: block;
+	content: " ";
+	clear: both;
+	font-size: 0;
+	visibility: hidden;
+	height: 0;
 }
