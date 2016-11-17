@@ -58,7 +58,6 @@ h3 {
 	text-decoration: none;
 	font-family: Helvetica, sans-serif;
 	font-size: 1em;
-	color: rgb(52,75,94);
 }
 
 img {
@@ -84,20 +83,25 @@ section {
 }
 #exterior {
 	background-color:#EEFFEF;
+	color: rgb(52,75,94);
 }
 #interior {
 	background-color: #99B79A;
 	border: top 1px black solid;
+	color: #EEFFEF;
 }
 #carpentry {
 	background-color: #EEFFEF;
 	border: top 1px black solid
+	color: rgb(52,75,94);
 }
 #furniture {
 	background-color: #99B79A;
 	border: top 1px black solid;
+	color: #EEFFEF;
 }
 #decorative {
 	background-color: #EEFFEF;
 	border: top 1px black solid;
+	color: rgb(52,75,94);
 }
