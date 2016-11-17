@@ -51,7 +51,9 @@ nav {
 	border-top: 1px black solid;
 	border-bottom: 1px black solid;
 }
-
+a {
+	text-decoration: none;
+}
 h3 {
 	text-decoration: none;
 	font-family: Helvetica, sans-serif;
