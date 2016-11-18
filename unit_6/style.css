@@ -43,15 +43,21 @@ nav a {
 	color: rgb(52,75,94);
 	text-decoration: none;
 	font-size: 1.2em;
-	margin-right: 50px;
+	float: left;
+	padding: 10px 90px;
+	margin-right: auto,0;
+	margin-left: auto,0;
+	background-color: #EEFFEF;
+	border-bottom: 1px #808080 solid;
+
 }
 nav a:hover {
-	color: rgb(219,74,92);
+	color: #EEFFEF;
+	background-color: #808080;
 }
 nav {
 	border-top: 1px #808080 solid;
 	border-bottom: 1px #808080 solid;
-	background-color: #EEFFEF;
 }
 a {
 	text-decoration: none;
@@ -95,6 +101,7 @@ section {
 	background-color:#EEFFEF;
 	color: rgb(52,75,94);
 	border-bottom: 1px black solid;
+	clear: both;
 }
 #interior {
 	background-color: rgba(153,183,154,.5);
