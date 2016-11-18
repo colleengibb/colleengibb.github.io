@@ -83,6 +83,9 @@ footer {
 
 .blurbs {
 	font-size: .86em;
+	text-align: left;
+	margin-left: 120px;
+	margin-right: 120px;
 }
 section {
 	padding: 1.2em;
@@ -117,4 +120,21 @@ section {
 	border-bottom: 1px black solid;
 	color: rgb(52,75,94);
 }
-
+#about {
+	text-align: justify;
+	font-family: Helvetica, sans-serif;
+	font-size: .8em;
+	color: rgb(34,51,64);
+	line-height: 150%;
+	padding-bottom: 1em;
+	margin-left: 120px;
+	margin-right: 120px;
+}
+h4 {
+	padding: 20px;
+}
+#about_contact {
+	text-decoration: none;
+	color: rgb(34,51,64);
+	font-weight: bold;
+}
