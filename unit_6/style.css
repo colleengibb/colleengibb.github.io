@@ -45,9 +45,7 @@ nav a {
 	text-decoration: none;
 	font-size: 1.2em;
 	float: left;
-	padding: 10px 90px;
-	margin-right: auto,0;
-	margin-left: auto,0;
+	width: 270px;
 	background-color: #EEFFEF;
 	border-bottom: 1px #808080 solid;
 
@@ -64,19 +62,15 @@ a {
 	text-decoration: none;
 }
 h3 {
+	text-align: center;
 	text-decoration: none;
 	font-family: Helvetica, sans-serif;
 	font-size: 1em;
+	padding: 12px;
 }
-.light {
-	color: rgb(13,8,10);
-}
-.dark {
-	color: rgb(52,75,94)
-}
+
 img {
-	width: 400px;
-	height: 300px;
+	width: 50%;
 }
 
 footer {
@@ -86,13 +80,14 @@ footer {
 	font-size: .6em;
 	border-top: solid 2px black;
 	padding: 2em;
+	clear: both;
 }
 
 .blurbs {
-	font-size: .86em;
+	font-size: .75em;
 	text-align: left;
-	margin-left: 120px;
-	margin-right: 120px;
+	margin-left: 90px
+	margin-right: 90px;
 }
 section {
 	padding: 1.2em;
@@ -104,18 +99,45 @@ section {
 	line-height: 150%;
 }
 
+section:nth-child(odd) {
+	float: left;
+	width: 46%;
+	padding: 20px;
+}
+section:nth-child(even) {
+	float: right;
+	width: 46%;
+	padding: 20px;
+}
+#decorative {
+	background: url("images/1_decorative.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	color: rgb(34,51,64);
+}
 #about {
 	text-align: justify;
+	background-image: url("images/marble.jpg");
 	font-family: Helvetica, sans-serif;
 	font-size: .8em;
 	color: rgb(34,51,64);
-	line-height: 150%;
-	padding-bottom: 1em;
-	margin-left: 120px;
-	margin-right: 120px;
+	line-height: 125%;
+	padding: 1.5em;
+	margin-left: 60px;
+	margin-right: 60px;
+	border: 1px black solid;
+	clear: both;
 }
 #about_contact {
 	text-decoration: none;
 	color: rgb(34,51,64);
 	font-weight: bold;
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ":
+	clear: both;
+	height: 0;
 }
