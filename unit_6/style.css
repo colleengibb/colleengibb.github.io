@@ -72,7 +72,8 @@ h3 {
 }
 
 img {
-	width: 50%;
+	width: 100%;
+	border: 1px black solid;
 }
 
 footer {
@@ -88,39 +89,35 @@ footer {
 .blurbs {
 	font-size: .75em;
 	text-align: left;
-	margin-left: 90px
-	margin-right: 90px;
+	margin-left: 20px
+	margin-right: 20px;
 }
 section {
-	padding: 1.2em;
-	margin: 1.2em;
+	padding: 10px;
+	margin: 10px;
 	text-decoration: none;
 	background-color:#EEFFEF;
 	color: rgb(52,75,94);
 	border: 1px black solid;
-	line-height: 150%;
+	line-height: 115%;
 }
 
 #exterior {
 	float: left;
-	width: 46%;
-	padding: 20px;
+	width: 22%;
 }
 #interior {
-	float: right;
-	width: 46%;
-	padding: 20px;
+	float: left;
+	width: 22%;	
 }
 
 #carpentry {
 	float: left;
-	width: 46%;
-	padding: 20px;
+	width: 22%;	
 }
 #decorative {
-	float: right;
-	width: 46%;
-	padding: 20px;
+	float: left;
+	width: 22%;
 }
 #about {
 	text-align: justify;
