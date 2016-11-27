@@ -7,7 +7,7 @@
 
 body {
 	text-align: center;
-	background-color: #99B79A; 
+	background-color: #99B79A;
 	font-family: Helvetica, sans-serif;
 	font-size: 1.5em;
 	color: rgb(34,51,64);
@@ -45,7 +45,7 @@ nav a {
 	text-decoration: none;
 	font-size: 1.2em;
 	float: left;
-	width: 270px;
+	width: 285px;
 	background-color: #EEFFEF;
 	border-bottom: 1px #808080 solid;
 
@@ -60,6 +60,8 @@ nav {
 }
 a {
 	text-decoration: none;
+	color: rgb(31,54,64);
+	
 }
 h3 {
 	text-align: center;
@@ -99,21 +101,26 @@ section {
 	line-height: 150%;
 }
 
-section:nth-child(odd) {
+#exterior {
 	float: left;
 	width: 46%;
 	padding: 20px;
 }
-section:nth-child(even) {
+#interior {
 	float: right;
 	width: 46%;
 	padding: 20px;
 }
+
+#carpentry {
+	float: left;
+	width: 46%;
+	padding: 20px;
+}
 #decorative {
-	background: url("images/1_decorative.jpg");
-	background-size: 100%;
-	background-repeat: no-repeat;
-	color: rgb(34,51,64);
+	float: right;
+	width: 46%;
+	padding: 20px;
 }
 #about {
 	text-align: justify;
@@ -123,8 +130,9 @@ section:nth-child(even) {
 	color: rgb(34,51,64);
 	line-height: 125%;
 	padding: 1.5em;
-	margin-left: 60px;
-	margin-right: 60px;
+	margin-left: 1em;
+	margin-right: 1em;
+	margin-bottom: 1em;
 	border: 1px black solid;
 	clear: both;
 }
@@ -137,7 +145,7 @@ section:nth-child(even) {
 	visibility: hidden;
 	display: block;
 	font-size: 0;
-	content: " ":
+	content: " ";
 	clear: both;
 	height: 0;
 }
