@@ -17,16 +17,7 @@ header {
 	margin-top: 18px;
 	background-image: linear-gradient(to bottom, #99B79A,#EEFFEF);
 }
-#welcome {
-	text-align: center;
-	font-family: Helvetica, sans-serif;
-	font-size: .8em;
-	color: rgb(34,51,64);
-	line-height: 150%;
-	padding-bottom: 1em;
-	margin-left: 120px;
-	margin-right: 120px;
-}
+
 h1 {
 	text-align: center;
 	font-family: "Trirong", Times, serif;
@@ -38,12 +29,21 @@ h2 {
 	font-size: 1.4em;
 	padding-bottom: 18px;
 }
-
+#welcome {
+	text-align: center;
+	font-family: Helvetica, sans-serif;
+	font-size: .8em;
+	color: rgb(34,51,64);
+	line-height: 150%;
+	padding-bottom: 1em;
+	margin-left: 120px;
+	margin-right: 120px;
+}
 nav a {
-	font-family: "Trirong", Times, serif;
+	font-family: "Pinyon Script", Times, serif;
 	color: rgb(52,75,94);
 	text-decoration: none;
-	font-size: 1.2em;
+	font-size: 1.4em;
 	float: left;
 	width: 285px;
 	background-color: #EEFFEF;
@@ -80,8 +80,8 @@ footer {
 	background-image: linear-gradient(to top, #99B79A,#EEFFEF);
 	text-align: center;
 	font-family: Helvetica, sans-serif;
-	font-size: .6em;
-	border-top: solid 2px black;
+	font-size: .7em;
+	border-top: solid 1px black;
 	padding: 2em;
 	clear: both;
 }
@@ -121,23 +121,25 @@ section {
 	width: 23%;
 }
 #about {
-	text-align: justify;
-	background-image: url("images/marble.jpg");
+	background: #EEFFEF;
+	text-align: left;
 	font-family: Helvetica, sans-serif;
-	font-size: .8em;
-	color: rgb(34,51,64);
-	line-height: 125%;
-	padding: 1.5em;
-	margin-left: 1em;
-	margin-right: 1em;
-	margin-bottom: 1em;
-	border: 1px black solid;
+	font-size: .74em;
+	color: rgb(52,75,94)
+	line-height: 120%;
+	padding: 3em;
+	border-top: 1px black solid;
+	border-bottom: 1px black solid;
 	clear: both;
 }
-#about_contact {
+.about_contact {
 	text-decoration: none;
 	color: rgb(34,51,64);
 	font-weight: bold;
+}
+#contact_us {
+	color: rgb(34,51,64);
+	font-size: .8em;
 }
 .clearfix:after {
 	visibility: hidden;
