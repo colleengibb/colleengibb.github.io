@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css?family=Trirong|Pinyon+Script');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	text-align: center;
+	background-color: #869db7;
+	font-family: Helvetica, sans-serif;
+	font-size: 1.5em;
+	color: rgb(34,51,64);
+}
+header {
+	text-align: center;
+	margin-top: 18px;
+	background-image: linear-gradient(to bottom, #869db7,#EEFFEF);
+}
+
+h1 {
+	text-align: center;
+	font-family: "Trirong", Times, serif;
+	font-size: 2em;
+}
+
+h2 {
+	font-family: "Pinyon Script", cursive, serif;
+	font-size: 1.4em;
+	padding-bottom: 18px;
+}
+#welcome {
+	text-align: center;
+	font-family: Helvetica, sans-serif;
+	font-size: .8em;
+	color: rgb(34,51,64);
+	line-height: 150%;
+	padding-bottom: 1em;
+	margin-left: 120px;
+	margin-right: 120px;
+}
+nav a {
+	font-family: "Pinyon Script", Times, serif;
+	color: rgb(52,75,94);
+	text-decoration: none;
+	font-size: 1.4em;
+	float: left;
+	width: 25%;
+	background-color: #EEFFEF;
+	border-bottom: 1px #808080 solid;
+
+}
+nav a:hover {
+	color: rgb(13,8,10);
+	background-color: #CFCFCF;
+}
+nav {
+	border: 1px #808080 solid;
+	margin-bottom: 20px;
+}
+a {
+	text-decoration: none;
+	color: rgb(31,54,64);
+	
+}
+h3 {
+	text-align: center;
+	text-decoration: none;
+	font-family: Helvetica, sans-serif;
+	font-size: 1em;
+	padding: 12px;
+}
+
+img {
+	width: 100%;
+	border: 1px black solid;
+}
+
+footer {
+	background-image: linear-gradient(to top, #869db7,#EEFFEF);
+	text-align: center;
+	font-family: Helvetica, sans-serif;
+	font-size: .7em;
+	border-top: solid 1px black;
+	padding: 2em;
+	clear: both;
+}
+
+.blurbs {
+	font-size: .75em;
+	text-align: left;
+	margin-left: 20px
+	margin-right: 20px;
+	padding: 8px;
+}
+section {
+	padding: 6px;
+	margin: 6px;
+	text-decoration: none;
+	background-color:#EEFFEF;
+	color: rgb(52,75,94);
+	border: 1px black solid;
+	line-height: 115%;
+}
+
+#exterior {
+	float: left;
+	width: 23%;
+}
+#interior {
+	float: left;
+	width: 23%;	
+}
+
+#carpentry {
+	float: left;
+	width: 23%;	
+}
+#decorative {
+	float: left;
+	width: 23%;
+}
+#about {
+	background: #EEFFEF;
+	text-align: left;
+	font-family: Helvetica, sans-serif;
+	font-size: .74em;
+	color: rgb(52,75,94)
+	line-height: 120%;
+	padding: 3em;
+	border-top: 1px black solid;
+	border-bottom: 1px black solid;
+	clear: both;
+}
+.about_contact {
+	text-decoration: none;
+	color: rgb(34,51,64);
+	font-weight: bold;
+}
+#contact_us {
+	color: rgb(34,51,64);
+	font-size: .8em;
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
