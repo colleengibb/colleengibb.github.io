@@ -91,10 +91,11 @@ footer {
 	text-align: left;
 	margin-left: 20px
 	margin-right: 20px;
+	padding: 8px;
 }
 section {
-	padding: 10px;
-	margin: 10px;
+	padding: 6px;
+	margin: 6px;
 	text-decoration: none;
 	background-color:#EEFFEF;
 	color: rgb(52,75,94);
@@ -104,20 +105,20 @@ section {
 
 #exterior {
 	float: left;
-	width: 22%;
+	width: 23%;
 }
 #interior {
 	float: left;
-	width: 22%;	
+	width: 23%;	
 }
 
 #carpentry {
 	float: left;
-	width: 22%;	
+	width: 23%;	
 }
 #decorative {
 	float: left;
-	width: 22%;
+	width: 23%;
 }
 #about {
 	text-align: justify;
