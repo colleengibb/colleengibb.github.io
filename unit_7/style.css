@@ -131,7 +131,9 @@ section {
 	padding: 3em;
 	border-top: 1px black solid;
 	border-bottom: 1px black solid;
-	clear: both;
+	float: left;
+	width: 75%;
+	padding: 10px;
 }
 .about_contact {
 	text-decoration: none;
@@ -141,6 +143,9 @@ section {
 #contact_us {
 	color: rgb(34,51,64);
 	font-size: .8em;
+	float: left;
+	width: 20%
+	padding: 10px;
 }
 .clearfix:after {
 	visibility: hidden;
