@@ -131,13 +131,13 @@ section {
 	padding: 3em;
 	border: 1px black solid;
 	float: right;
-	width: 80%;
+	width: 76%;
 	padding: 20px;
 	margin-bottom: 1.5em;
 }
 .about_contact {
 	text-decoration: none;
-	color: rgb(13,20,51);
+	color: rgb(13,84,51);
 	font-weight: bold;
 }
 #contact_us {
