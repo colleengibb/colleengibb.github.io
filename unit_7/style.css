@@ -95,12 +95,9 @@ footer {
 	padding: 8px;
 }
 section {
-	padding: 6px;
-	margin: 6px;
 	text-decoration: none;
 	background-color:#EEFFEF;
 	color: rgb(52,75,94);
-	border: 1px black solid;
 	line-height: 115%;
 }
 
