@@ -106,20 +106,20 @@ section {
 
 #exterior {
 	float: left;
-	width: 23%;
+	width: 25%;
 }
 #interior {
 	float: left;
-	width: 23%;	
+	width: 25%;	
 }
 
 #carpentry {
 	float: left;
-	width: 23%;	
+	width: 25%;	
 }
 #decorative {
 	float: left;
-	width: 23%;
+	width: 25%;
 }
 #about {
 	background: #EEFFEF;
