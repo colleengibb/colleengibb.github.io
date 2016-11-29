@@ -129,11 +129,11 @@ section {
 	color: rgb(52,75,94)
 	line-height: 120%;
 	padding: 3em;
-	border-top: 1px black solid;
-	border-bottom: 1px black solid;
-	float: left;
-	width: 75%;
-	padding: 10px;
+	border: 1px black solid;
+	float: right;
+	width: 80%;
+	padding: 20px;
+	margin: 
 }
 .about_contact {
 	text-decoration: none;
@@ -143,9 +143,9 @@ section {
 #contact_us {
 	color: rgb(34,51,64);
 	font-size: .8em;
-	float: left;
+	float: right;
 	width: 20%
-	padding: 10px;
+	padding: 30px;
 }
 .clearfix:after {
 	visibility: hidden;
