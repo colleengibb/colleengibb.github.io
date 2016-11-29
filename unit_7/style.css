@@ -9,8 +9,9 @@ body {
 	text-align: center;
 	background-color: #869db7;
 	font-family: Helvetica, sans-serif;
-	font-size: 1.5em;
+	font-size: 16px;
 	color: rgb(34,51,64);
+	line-height: 1.2;
 }
 header {
 	text-align: center;
@@ -26,14 +27,11 @@ h1 {
 
 h2 {
 	font-family: "Pinyon Script", cursive, serif;
-	font-size: 1.7em;
-	padding-bottom: 18px;
+	font-size: 1.75em;
 }
 #welcome {
 	text-align: center;
-	font-family: Helvetica, sans-serif;
-	font-size: .8em;
-	color: rgb(34,51,64);
+	font-size: 1em;
 	line-height: 150%;
 	padding-bottom: 1em;
 	margin-left: 120px;
@@ -44,20 +42,19 @@ nav a {
 	color: rgb(52,75,94);
 	text-decoration: none;
 	font-weight: 700;
-	font-size: 1.4em;
+	font-size: 1.5em;
 	float: left;
 	width: 25%;
+	padding: .25em;
 	background-color: #EEFFEF;
-	border-bottom: 1px #808080 solid;
-
 }
 nav a:hover {
 	color: rgb(13,8,10);
 	background-color: #CFCFCF;
 }
 nav {
-	border: 1px #808080 solid;
-	margin-bottom: 20px;
+	margin-bottom: 1em;
+	box-shadow: 1px 1px 3px rgba(0,0,0,.25);
 }
 a {
 	text-decoration: none;
@@ -67,8 +64,7 @@ a {
 h3 {
 	text-align: center;
 	text-decoration: none;
-	font-family: Helvetica, sans-serif;
-	font-size: 1em;
+	font-size: 1.5em;
 	padding: 12px;
 }
 
@@ -80,58 +76,34 @@ img {
 footer {
 	background-image: linear-gradient(to top, #869db7,#EEFFEF);
 	text-align: center;
-	font-family: Helvetica, sans-serif;
-	font-size: .7em;
+	font-size: .75em;
 	border-top: solid 1px black;
 	padding: 2em;
 	clear: both;
 }
 
 .blurbs {
-	font-size: .75em;
 	text-align: left;
-	margin-left: 20px
-	margin-right: 20px;
-	padding: 8px;
+	padding: 1em 1em 0;
 }
 section {
-	text-decoration: none;
 	background-color:#EEFFEF;
-	color: rgb(52,75,94);
-	line-height: 115%;
-	padding: 10px;
+	padding: 4em 0;
+	margin-bottom:2em;
 }
 
-#exterior {
+#services section {
 	float: left;
-	width: 257.5px;
-}
-#interior {
-	float: left;
-	width: 257.5px;	
-}
-
-#carpentry {
-	float: left;
-	width: 257.5px;	
-}
-#decorative {
-	float: left;
-	width: 257.5px;
+	width: 25%;
+	margin: 0;
+	padding: 1em;
 }
 #about {
 	background: #EEFFEF;
 	text-align: left;
-	font-family: Helvetica, sans-serif;
-	font-size: .74em;
-	color: rgb(52,75,94)
-	line-height: 120%;
-	padding: 3em;
-	border: 1px black solid;
 	float: right;
-	width: 76%;
-	padding: 20px;
-	margin-bottom: 1.5em;
+	width: 75%;
+	padding: 4em;
 }
 .about_contact {
 	text-decoration: none;
@@ -139,12 +111,16 @@ section {
 	font-weight: bold;
 }
 #contact_us {
-	color: rgb(34,51,64);
-	font-size: .8em;
 	float: right;
-	width: 20%
-	padding: 20px;
-	margin: 1em;
+	width: 25%;
+}
+.wrapper {
+    width: 1200px;
+    margin: 0 auto 1em;
+    background: #eeffef;
+}
+header .wrapper {
+	background:none;
 }
 .clearfix:after {
 	visibility: hidden;
