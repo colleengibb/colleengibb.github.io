@@ -133,7 +133,7 @@ section {
 	float: right;
 	width: 80%;
 	padding: 20px;
-	margin: 
+	margin: 2em;
 }
 .about_contact {
 	text-decoration: none;
@@ -146,6 +146,7 @@ section {
 	float: right;
 	width: 20%
 	padding: 30px;
+	margin: 2em;
 }
 .clearfix:after {
 	visibility: hidden;
