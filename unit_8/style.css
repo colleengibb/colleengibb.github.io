@@ -99,7 +99,7 @@ section {
 	background: #EEFFEF;
 	text-align: left;
 	float: right;
-	width: 75%;
+	width: 70%;
 	padding: 3em;
 }
 .about_contact {
@@ -109,8 +109,10 @@ section {
 }
 #contact_us {
 	float: right;
-	width: 25%;
-	padding: 2.75em;
+	width: 30%;
+	padding: 2.5em;
+	border-right: 1px black solid;
+	margin-top: 8.5em;
 }
 .wrapper {
     width: 85%;
