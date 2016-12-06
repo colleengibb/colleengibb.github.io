@@ -28,7 +28,7 @@ h1 {
 h2 {
 	font-family: "Pinyon Script", cursive, serif;
 	font-size: 2em;
-	padding: .5em;
+	padding: .2em;
 }
 #welcome {
 	text-align: left;
@@ -81,11 +81,11 @@ footer {
 
 .blurbs {
 	text-align: left;
-	padding: 1em 1em 0;
+	padding: 1em .5em 0;
 }
 section {
 	background-color:#EEFFEF;
-	padding: 4em 0;
+	padding: 2em 0;
 	margin-bottom:2em;
 }
 
@@ -100,7 +100,7 @@ section {
 	text-align: left;
 	float: right;
 	width: 75%;
-	padding: 4em;
+	padding: 3em;
 }
 .about_contact {
 	text-decoration: none;
@@ -110,6 +110,7 @@ section {
 #contact_us {
 	float: right;
 	width: 25%;
+	padding: 2.75em;
 }
 .wrapper {
     width: 85%;
