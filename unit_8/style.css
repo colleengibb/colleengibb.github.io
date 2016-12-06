@@ -7,7 +7,7 @@
 
 body {
 	text-align: center;
-	background-color: #869db7;
+	background-color: #EEFFEF;
 	font-family: Helvetica, sans-serif;
 	font-size: 18px;
 	color: rgb(34,51,64);
@@ -15,7 +15,7 @@ body {
 }
 header {
 	text-align: center;
-	margin-top: 1em;
+	padding: 1.5em;
 	background-image: linear-gradient(to bottom, #869db7,#EEFFEF);
 }
 
@@ -28,16 +28,17 @@ h1 {
 h2 {
 	font-family: "Pinyon Script", cursive, serif;
 	font-size: 2em;
+	padding: .5em;
 }
 #welcome {
-	text-align: center;
+	text-align: left;
 }
 nav a {
 	font-family: "Pinyon Script", Times, serif;
 	color: rgb(52,75,94);
 	text-decoration: none;
 	font-weight: 700;
-	font-size: 2em;
+	font-size: 1.75em;
 	float: left;
 	width: 25%;
 	padding: .5em;
@@ -59,8 +60,8 @@ a {
 
 h3 {
 	text-align: center;
-	text-decoration: none;
-	font-size: 1.5em;
+	text-decoration: underline;
+	font-size: 1em;
 	padding: 2em;
 }
 
@@ -91,8 +92,8 @@ section {
 #services section {
 	float: left;
 	width: 25%;
-	margin: 2em;
-	padding: 1.5em;
+	margin: 0;
+	padding: 1em;
 }
 #about {
 	background: #EEFFEF;
@@ -112,7 +113,7 @@ section {
 }
 .wrapper {
     width: 85%;
-    margin: 0 auto 1em;
+    margin: 0 auto .5em;
     background: #eeffef;
 }
 header .wrapper {
