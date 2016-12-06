@@ -9,43 +9,38 @@ body {
 	text-align: center;
 	background-color: #869db7;
 	font-family: Helvetica, sans-serif;
-	font-size: 16px;
+	font-size: 18px;
 	color: rgb(34,51,64);
 	line-height: 1.2;
 }
 header {
 	text-align: center;
-	margin-top: 18px;
+	margin-top: 1em;
 	background-image: linear-gradient(to bottom, #869db7,#EEFFEF);
 }
 
 h1 {
 	text-align: center;
 	font-family: "Trirong", Times, serif;
-	font-size: 2em;
+	font-size: 2.5em;
 }
 
 h2 {
 	font-family: "Pinyon Script", cursive, serif;
-	font-size: 1.75em;
+	font-size: 2em;
 }
 #welcome {
 	text-align: center;
-	font-size: 1em;
-	line-height: 150%;
-	padding-bottom: 1em;
-	margin-left: 120px;
-	margin-right: 120px;
 }
 nav a {
 	font-family: "Pinyon Script", Times, serif;
 	color: rgb(52,75,94);
 	text-decoration: none;
 	font-weight: 700;
-	font-size: 1.5em;
+	font-size: 2em;
 	float: left;
 	width: 25%;
-	padding: .25em;
+	padding: .5em;
 	background-color: #EEFFEF;
 }
 nav a:hover {
@@ -56,16 +51,17 @@ nav {
 	margin-bottom: 1em;
 	box-shadow: 1px 1px 3px rgba(0,0,0,.25);
 }
+
 a {
 	text-decoration: none;
 	color: rgb(31,54,64);
-	
 }
+
 h3 {
 	text-align: center;
 	text-decoration: none;
 	font-size: 1.5em;
-	padding: 12px;
+	padding: 2em;
 }
 
 img {
@@ -95,8 +91,8 @@ section {
 #services section {
 	float: left;
 	width: 25%;
-	margin: 0;
-	padding: 1em;
+	margin: 2em;
+	padding: 1.5em;
 }
 #about {
 	background: #EEFFEF;
@@ -115,7 +111,7 @@ section {
 	width: 25%;
 }
 .wrapper {
-    width: 1200px;
+    width: 85%;
     margin: 0 auto 1em;
     background: #eeffef;
 }
