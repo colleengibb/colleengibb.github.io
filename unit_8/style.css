@@ -132,13 +132,21 @@ header .wrapper {
 	height: 0;
 }
 
-@media only screen and (max-width: 1180px) {
+@media only screen and (max-width: 1250px) {
+	section {
+	padding: 1em 0;
+	margin-bottom:1em;
+	}
+
 	#services section {
 	float: left;
 	width: 50%;
 	margin: 0;
 	padding: .5em;
 	}
+	nav a {
+	padding: .1em;
+}
 }
 
 
