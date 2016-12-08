@@ -131,3 +131,12 @@ header .wrapper {
 	clear: both;
 	height: 0;
 }
+
+@media only screen and (max-width: 1252px) {
+	#services section {
+	float: left;
+	width: 50%;
+	margin: 0;
+	padding: 1em;
+	}
+}
