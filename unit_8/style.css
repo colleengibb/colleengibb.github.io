@@ -16,7 +16,6 @@ body {
 header {
 	text-align: center;
 	padding: 1em;
-	background-image: url("red_doors.jpg");
 }
 
 .logo {
@@ -105,6 +104,7 @@ section {
 	padding: 0 1em 0;
 	min-height: 32em;
 }
+
 #about {
 	background: #EEFFEF;
 	text-align: left;
@@ -112,11 +112,13 @@ section {
 	width: 70%;
 	padding: 2em;
 }
+
 .about_contact {
 	text-decoration: none;
 	color: rgb(33,9,9);
 	font-weight: bold;
 }
+
 #contact_us {
 	float: right;
 	width: 30%;
@@ -124,16 +126,19 @@ section {
 	margin-top: 6em;
 	border-right: 1px black solid;
 }
+
 .wrapper {
     clear: both;
     max-width: 60em;
     margin: 0 auto .5em;
     background: #eeffef;
 }
+
 #intro .wrapper {
-	max-width: 32em;
+	max-width: 50em;
 	padding: 4em;
 }
+
 header .wrapper {
 	background:none;
 }
@@ -146,11 +151,12 @@ header .wrapper {
 	height: 0;
 }
 
-@media only screen and (max-width: 1250px) {
-		
-}
-
 @media only screen and (max-width: 1020px) {
+	#intro .wrapper {
+	max-width: 80%;
+	padding: 1em;
+	}
+
 	#about {
 		text-align: left;
 		clear:both;
@@ -198,12 +204,19 @@ header .wrapper {
 		font-size: 1.5em;
 	}
 	h2 {
-		font-size: 1.35em;
-		padding: 0;
+		font-size: 1.75em;
+		padding: .5em;
 	}
+
+	#intro .wrapper {
+	max-width: 90%;
+	padding: 2em;
+	}
+
 	#welcome {
 		display: none;
 	}
+
 	nav a {
 	font-size: 1.25em;
 	padding: 1em;
