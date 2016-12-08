@@ -134,19 +134,61 @@ header .wrapper {
 
 @media only screen and (max-width: 1250px) {
 	section {
-	padding: 1em 0;
-	margin-bottom:1em;
+		padding: 1em 0;
+		margin-bottom:1em;
 	}
 
 	#services section {
-	float: left;
-	width: 50%;
-	margin: 0;
-	padding: .5em;
+		float: left;
+		width: 50%;
+		margin: 0;
+		padding: .5em;
 	}
 	nav a {
-	padding: .1em;
-}
+		padding: .1em;
+	}
 }
 
+@media only screen and (max-width: 1020px) {
+	#about {
+		text-align: left;
+		float: clear both;
+		width: 95%;
+		padding: 0;
+		margin: 0;
+	}
+	#contact_us {
+		float: clear both;
+		width: 100%;
+		padding: 1.5em;
+		border-top: 1px black solid;
+		border-right: none;
+	}
+}
+
+@media only screen and (max-width: 935px) {
+	section {
+		padding: 0;
+		margin-bottom:0;
+	}
+	#services section {
+		width: 48%;
+	}
+}
+
+@media only screen and (max-width: 725px) {
+	#services section {
+		float: none;
+		width: 100%
+		margin: 0;
+		padding: 0;
+	}
+	#contact_us {
+		padding: .25em;
+	}
+	.wrapper {
+    width: 100%;
+    margin: 0 auto .25em;
+}
+}
 
