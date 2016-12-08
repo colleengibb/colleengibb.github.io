@@ -177,6 +177,9 @@ header .wrapper {
 }
 
 @media only screen and (max-width: 725px) {
+	#welcome {
+		display: none;
+}
 	#services section {
 		float: none;
 		width: 100%
@@ -187,8 +190,8 @@ header .wrapper {
 		padding: .25em;
 	}
 	.wrapper {
-    width: 100%;
-    margin: 0 auto .25em;
+    	width: 100%;
+    	margin: 0 auto .25em;
 }
 }
 
