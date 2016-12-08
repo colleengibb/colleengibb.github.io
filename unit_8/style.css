@@ -177,8 +177,28 @@ header .wrapper {
 }
 
 @media only screen and (max-width: 725px) {
+	body {
+		font-size: 16px;
+		line-height: 1.1;
+	}
+	h1 {
+		font-size: 2em;
+	}
+	h2 {
+		font-family: "Pinyon Script", cursive, serif;
+		font-size: 1.5em;
+		padding: .1em;
+	}
+
 	#welcome {
 		display: none;
+	}
+	nav a {
+	font-size: 1.25em;
+	float: left;
+	width: 25%;
+	padding: 1em;
+	background-color: #EEFFEF;
 }
 	#services section {
 		float: none;
@@ -192,6 +212,6 @@ header .wrapper {
 	.wrapper {
     	width: 100%;
     	margin: 0 auto .25em;
-}
+	}
 }
 
