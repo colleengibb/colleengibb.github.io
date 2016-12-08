@@ -87,7 +87,7 @@ footer {
 section {
 	background-color:#EEFFEF;
 	padding: 2em 0;
-	margin-bottom:2em;
+	margin-bottom:1em;
 }
 
 #services section {
@@ -133,6 +133,12 @@ header .wrapper {
 }
 
 @media only screen and (max-width: 1250px) {
+	nav a {
+		padding: .1em;
+	}
+	nav {
+	margin-bottom: .5em;
+	}
 	section {
 		padding: 1em 0;
 		margin-bottom:1em;
@@ -141,15 +147,17 @@ header .wrapper {
 	#services section {
 		float: left;
 		width: 50%;
+		height: 700px;
 		margin: 0;
 		padding: .5em;
 	}
-	nav a {
-		padding: .1em;
-	}
+	
 }
 
 @media only screen and (max-width: 1020px) {
+	#services section {
+		height: 505px;
+	}
 	#about {
 		text-align: left;
 		float: clear both;
@@ -172,11 +180,19 @@ header .wrapper {
 		margin-bottom:0;
 	}
 	#services section {
-		width: 48%;
+		width: 50%;
+		height: 490px;
+	}
+	#about {
+		border-top: 1px black solid;
+		margin-top: 1em;
+	}
+	#contact_us {
+		padding: .5em;
 	}
 }
 
-@media only screen and (max-width: 725px) {
+@media only screen and (max-width: 768px) {
 	body {
 		font-size: 16px;
 		line-height: 1.1;
@@ -185,33 +201,49 @@ header .wrapper {
 		font-size: 2em;
 	}
 	h2 {
-		font-family: "Pinyon Script", cursive, serif;
-		font-size: 1.5em;
 		padding: .1em;
 	}
+	#welcome {
+		display: none;
+	}
+	nav a {
+	padding: 1em;
+	}
+	#services section {
+		float: left;
+		width: 50%
+		margin: 0.1em;
+		padding: 0.5em;
+		height: 390px;
+	}
+	#contact_us {
+		padding: .25em;
+	}
+	#about {
+		margin-top: 2em;
+}
 
+@media only screen and (max-width: 600px) {
+	h1 {
+		font-size: 1.5em;
+	}
+	h2 {
+		font-size: 1.35em;
+		padding: 0;
+	}
 	#welcome {
 		display: none;
 	}
 	nav a {
 	font-size: 1.25em;
-	float: left;
-	width: 25%;
 	padding: 1em;
-	background-color: #EEFFEF;
-}
+	}
 	#services section {
 		float: none;
 		width: 100%
-		margin: 0;
-		padding: 0;
-	}
-	#contact_us {
 		padding: .25em;
 	}
-	.wrapper {
-    	width: 100%;
-    	margin: 0 auto .25em;
+	#contact_us {
+		padding: .15em;
 	}
 }
-
