@@ -15,7 +15,7 @@ body {
 }
 header {
 	text-align: center;
-	padding: 1.5em;
+	padding: 1em;
 	background-image: linear-gradient(to bottom, #869db7,#EEFFEF);
 }
 
@@ -29,9 +29,11 @@ h2 {
 	font-family: "Pinyon Script", cursive, serif;
 	font-size: 2em;
 	padding: .2em;
+	margin-top: .75em;
 }
 #welcome {
 	text-align: left;
+	margin-top: 1em;
 }
 nav a {
 	font-family: "Pinyon Script", Times, serif;
@@ -147,7 +149,7 @@ header .wrapper {
 	#services section {
 		float: left;
 		width: 50%;
-		height: 700px;
+		height: 600px;
 		margin: 0;
 		padding: .5em;
 	}
@@ -192,7 +194,7 @@ header .wrapper {
 	}
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 750px) {
 	body {
 		font-size: 16px;
 		line-height: 1.1;
@@ -202,6 +204,7 @@ header .wrapper {
 	}
 	h2 {
 		padding: .1em;
+		margin: .25em;
 	}
 	#welcome {
 		display: none;
@@ -214,7 +217,7 @@ header .wrapper {
 		width: 50%
 		margin: 0.1em;
 		padding: 0.5em;
-		height: 390px;
+		height: 403px;
 	}
 	#contact_us {
 		padding: .25em;
@@ -241,7 +244,8 @@ header .wrapper {
 	#services section {
 		float: none;
 		width: 100%
-		padding: .25em;
+		height: 200;
+		padding: 0;
 	}
 	#contact_us {
 		padding: .15em;
