@@ -39,7 +39,7 @@ h2 {
 }
 
 #intro {
-	color: rgb(255,255,255);
+	color: #cfcfcf;
 	background-image: url("images/red_doors3.jpg");
 	background-repeat: no-repeat;
 	background-position: top;
@@ -56,18 +56,18 @@ h2 {
 
 nav a {
 	font-family: "Hind", Times, serif;
-	color: rgb(255,255,255);
+	color: rgb(0,0,0);
 	text-decoration: none;
 	font-size: 1.75em;
 	float: left;
 	width: 25%;
 	padding: .5em;
-	background-color: #7f0900;
+	background-color: #cfcfcf;
 }
 
 nav a:hover {
-	color: rgb(13,8,10);
-	background-color: #CFCFCF;
+	color: rgb(0,0,0)
+	background-color: #7f0900;
 }
 nav {
 	box-shadow: 2px 2px 3px rgba(0,0,0,.25);
