@@ -39,7 +39,7 @@ h2 {
 }
 
 #intro {
-	color: #cfcfcf;
+	color: #f2eff1;
 	background-image: url("images/red_doors3.jpg");
 	background-repeat: no-repeat;
 	background-position: top;
@@ -69,6 +69,7 @@ nav a:hover {
 	color: rgb(0,0,0)
 	background-color: #7f0900;
 }
+
 nav {
 	box-shadow: 2px 2px 3px rgba(0,0,0,.25);
 }
